@@ -26,7 +26,8 @@ public class Main2Activity extends AppCompatActivity {
 
         isimVerisi=getSharedPreferences(MAIN_KEY, MODE_PRIVATE).getString(ISIM_KEY, "isim bulunamadı.");
         soyadVerisi=getSharedPreferences(MAIN_KEY, MODE_PRIVATE).getString(SOYAD_KEY, "soyad bulunamadı.");
-     //   yasVerisi=getSharedPreferences(MAIN_KEY, MODE_PRIVATE).getString(YAS_KEY, -1);  -1 döndürmüyot
+     //   yasVerisi=getSharedPreferences(MAIN_KEY, MODE_PRIVATE).getString(YAS_KEY, -1);  -1 döndürmüyo
+     // değişiklik
 
 
 
